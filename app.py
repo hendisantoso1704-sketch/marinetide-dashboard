@@ -79,7 +79,7 @@ def generate_template():
            0.2*np.sin(2*np.pi*t/23.93) + 0.15*np.sin(2*np.pi*t/25.82) + 0.02*np.random.randn(len(t))
     return pd.DataFrame({"Waktu": waktu, "Elevasi (m)": elev})
 
-# ==========================================
+# ========================================== 
 # SIDEBAR CONTROL PANEL
 # ==========================================
 with st.sidebar:
